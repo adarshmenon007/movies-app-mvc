@@ -18,9 +18,10 @@ namespace MoviesApp.Controllers
             return View(_db.Movies.ToList());
         }
 
-        // GET: Home/Details/5
-        public ActionResult Details(int id)
+        public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
+
             return View();
         }
 
@@ -64,28 +65,6 @@ namespace MoviesApp.Controllers
             _db.SaveChanges();
 
             return RedirectToAction("Index");
-        }
-
-        // GET: Home/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Home/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
         }
     }
 }

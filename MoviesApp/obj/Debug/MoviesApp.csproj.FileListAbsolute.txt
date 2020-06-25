@@ -80,3 +80,4 @@ C:\Users\Adarsh\source\repos\MoviesApp\MoviesApp\bin\EntityFramework.dll
 C:\Users\Adarsh\source\repos\MoviesApp\MoviesApp\bin\EntityFramework.SqlServer.dll
 C:\Users\Adarsh\source\repos\MoviesApp\MoviesApp\bin\EntityFramework.xml
 C:\Users\Adarsh\source\repos\MoviesApp\MoviesApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Adarsh\source\repos\MoviesApp\MoviesApp\obj\Debug\MoviesApp.csprojAssemblyReference.cache
